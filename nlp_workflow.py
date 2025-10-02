@@ -32,6 +32,9 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import en_core_web_sm
+nlp = en_core_web_sm.load()
+
 
 # Download required NLTK data
 @st.cache_resource
