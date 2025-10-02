@@ -1,0 +1,18 @@
+name: xxx
+channels:
+  - plotly
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib=3.6.0
+  - numpy=1.23.3
+  - pandas=1.4.4
+  - plotly=5.10.0
+  - python-docx=0.8.11
+  - scikit-learn=1.1.2
+  - scipy=1.9.1
+  - seaborn=0.12.0
+  - spacy=3.4.1
+  - streamlit=1.12.2
+  - tqdm=4.64.1
+  - wasabi=0.9.1
