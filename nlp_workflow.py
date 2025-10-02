@@ -17,7 +17,6 @@ CUSTOMIZATION GUIDE:
 5. N-GRAMS: Change `ngram_range` in `extract_ngrams()` for different n-gram sizes
 6. PREPROCESSING: Modify `preprocess_text()` to add/remove cleaning steps
 """
-!pip install --user spacy
 import streamlit as st
 import pandas as pd
 import numpy as np
